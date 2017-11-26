@@ -8,6 +8,7 @@ After defining custom parameters, run `Keygen::generate();` to generate a single
 
 ## Parameters
 Before execution of `generate()` or `validate()`, set with the following options:
+
 | Parameter Method | Description |
 | --- | --- |
 | `Keygen::set_baseX( array );` | Sets the array of 'symbols' or 'characters' that make up each digit of the code. | 
