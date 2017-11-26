@@ -34,7 +34,8 @@ class Keygen {
     "S" => "5",
     "P" => "R",
     "I" => "J",
-    "U" => "V"
+    "U" => "V",
+    "Z" => "2"
   );
   public static $error_char = "!";
   public static $code_len = 6;//desired code length not including checksum digits(thats variable)
@@ -60,7 +61,7 @@ class Keygen {
     while(pow(2,$digits) < $in)  $digits++;
     return $digits;
   }
-  private static function digits_of_number($in, $in_base){
+  public static function digits_of_number($in, $in_base){
     //how many digits to store a number in an arbitrary base?
 
     //digit value = x*(base_no^place)
