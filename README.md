@@ -25,7 +25,7 @@ Before execution of `generate()` or `validate()`, set with the following options
 ## Defaults
 | Parameter | Default Value |
 |-----------|---------------|
-| baseX/alphabet | `0-9, A-F,H,J-N,R,T,V-Z` |
+| baseX/alphabet | `0-9, A-F,H,J-N,R,T,V-Y` |
 | aliases | `G,O,Q` to `0`, `S` to `5`, `P` to `R`, `I` to `J`, `U` to `V`, and `Z` to `2` |
 | error character | `!` |
 | code length | `6` |
